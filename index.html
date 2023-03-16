@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이거슨 웹입니다.</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 메뉴 섹션(컨트롤+슬래쉬) -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">HCJDEMO</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- 메인 섹션 -->
+    <section class="main">
+      <div class="container">
+        <h1>캡스톤디자인. Web Programing!...</h1>
+        <h3>
+          웹 개발자를 위한 온라인 메뉴얼 :
+          <a href="https://www.w3schools.com/">w3schools</a>
+        </h3>
+        <p>
+          <a href="https://www.w3schools.com/html/default.asp">HTML5</a>
+          <a href="https://www.w3schools.com/css/default.asp">cSS</a>
+          <a href="https://www.w3schools.com/js/default.asp">JS</a>
+        </p>
+
+        <p>현재 시간 : <span id="time">aaaa</span></p>
+
+        <hr />
+        <p>
+          버튼색 바꾸기:
+          <button onclick="pink()">Pink</button>
+          <button onclick="lightblue()">lightblue</button>
+          <button onclick="yellow()">yellow</button>
+          <button onclick="reset()">reset</button>
+        </p>
+        <p>
+          배워봅시다:
+          <button onmouseover="showhtml()" onmouseout="hide()">HTML5</button>
+          <button onmouseover="showcss()" onmouseout="hide()">css</button>
+          <button onmouseover="showjs()" onmouseout="hide()">JavaScript</button>
+        </p>
+        <hr />
+        <br />
+        <div>
+          <img id="fig" height="200px" />
+          <p id="desc"></p>
+        </div>
+      </div>
+      <div class="container"></div>
+    </section>
+    <h1>Hello World!</h1>
+    <script src="main.js"></script>
+  </body>
+</html>
